@@ -1,7 +1,6 @@
 # CPP & Fortran mixed environment
     
     This shows an example about communicating methods and data from cpp to Fortran.
-    Usually defined as cpp fortran mixed programming environment.
 
 ## Instructions
 
