@@ -5,6 +5,7 @@ using namespace std;
 extern "C" {
     struct CommonData {
         double doubleScalar;
+        double doubleArray[2][3];
     };
     extern void fortran_setData();
     extern void fortran_copyDataFromCpp(CommonData* a_dataFromCpp);
@@ -22,16 +23,15 @@ C2F::~C2F() {
     delete m_commonData;
 }
 
-
-        //void setDataInCpp();
-        //void setDataInFortran();
-        //void copyDataFromCpp();
-        //void copyDataToCpp();
-        //void printData();
-
 void C2F::setDataInCpp() {
     cout << "C2F::setDataInCpp" << endl;
     m_commonData->doubleScalar = 1.1;
+    m_commonData->doubleArray[0][0] = 1.1;
+    m_commonData->doubleArray[0][1] = 2.2;
+    m_commonData->doubleArray[0][2] = 3.3;
+    m_commonData->doubleArray[1][0] = 4.4;
+    m_commonData->doubleArray[1][1] = 5.5;
+    m_commonData->doubleArray[1][2] = 6.6;
 }
 
 void C2F::setDataInFortran() {
@@ -52,6 +52,11 @@ void C2F::copyDataToCpp() {
 void C2F::printData() {
     cout << "C2F::printCommonData" << endl;
     cout << "cpp: doubleScalar: " << m_commonData->doubleScalar << endl;
+    for (int i=0;i<2;++i) {
+        for (int j=0;j<3;++j) {
+            cout << "cpp: doubleArray[" << i << "][" << j << "]: " << m_commonData->doubleArray[i][j] << endl;
+        }
+    }
     fortran_printData();
 }
 

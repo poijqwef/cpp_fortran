@@ -1,6 +1,3 @@
-#define ARRAY_SIZE1 3
-#define ARRAY_SIZE2 2
-
 #include <iostream>
 
 using namespace std;
