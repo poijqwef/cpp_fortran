@@ -22,13 +22,13 @@
     cpp: doubleArray[1][0]: 4.4
     cpp: doubleArray[1][1]: 5.5
     cpp: doubleArray[1][2]: 6.6
-     fortran: doubleScalar:    1.1000000000000001     
-     fortran: doubleArray(           1 ,           1 ):    1.10000002    
-     fortran: doubleArray(           1 ,           2 ):    2.20000005    
-     fortran: doubleArray(           1 ,           3 ):    3.29999995    
-     fortran: doubleArray(           2 ,           1 ):    4.40000010    
-     fortran: doubleArray(           2 ,           2 ):    5.50000000    
-     fortran: doubleArray(           2 ,           3 ):    6.59999990    
+     fortran: doubleScalar:    1.1000000000000001
+     fortran: doubleArray(           1 ,           1 ):    1.1000000000000001
+     fortran: doubleArray(           1 ,           2 ):    2.2000000000000002
+     fortran: doubleArray(           1 ,           3 ):    3.2999999999999998
+     fortran: doubleArray(           2 ,           1 ):    4.4000000000000004
+     fortran: doubleArray(           2 ,           2 ):    5.5000000000000000
+     fortran: doubleArray(           2 ,           3 ):    6.5999999999999996
      
      TO OBTAIN THE SAME VALUES, THE ARRAY NEEDS TO BE TRANPOSED!
      
@@ -71,13 +71,13 @@
     cpp: doubleArray[1][0]: -4.4
     cpp: doubleArray[1][1]: -5.5
     cpp: doubleArray[1][2]: -6.6
-     fortran: doubleScalar:   -1.1000000238418579     
-     fortran: doubleArray(           1 ,           1 ):   -1.10000002    
-     fortran: doubleArray(           1 ,           2 ):   -2.20000005    
-     fortran: doubleArray(           1 ,           3 ):   -3.29999995    
-     fortran: doubleArray(           2 ,           1 ):   -4.40000010    
-     fortran: doubleArray(           2 ,           2 ):   -5.50000000    
-     fortran: doubleArray(           2 ,           3 ):   -6.59999990    
+     fortran: doubleScalar:   -1.1000000000000001
+     fortran: doubleArray(           1 ,           1 ):   -1.1000000000000001
+     fortran: doubleArray(           1 ,           2 ):   -2.2000000000000002
+     fortran: doubleArray(           1 ,           3 ):   -3.2999999999999998
+     fortran: doubleArray(           2 ,           1 ):   -4.4000000000000004
+     fortran: doubleArray(           2 ,           2 ):   -5.5000000000000000
+     fortran: doubleArray(           2 ,           3 ):   -6.5999999999999996
      
      TO OBTAIN THE SAME VALUES, THE ARRAY NEEDS TO BE TRANPOSED!
      
