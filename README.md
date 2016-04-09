@@ -38,7 +38,7 @@
      
               -->  [X]  -->  [X]  -->  [X]
      
-     Cpp is column-first filling: 
+     Fortran is column-first filling: 
      
             start
               |         |
@@ -87,7 +87,7 @@
      
               -->  [X]  -->  [X]  -->  [X]
      
-     Cpp is column-first filling: 
+     Fortran is column-first filling: 
      
             start
               |         |

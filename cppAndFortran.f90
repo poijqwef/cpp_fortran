@@ -75,7 +75,7 @@ implicit none
     print *,''
     print *,'         -->  [X]  -->  [X]  -->  [X]' 
     print *,''
-    print *,'Cpp is column-first filling: '
+    print *,'Fortran is column-first filling: '
     print *,''
     print *,'       start'
     print *,'         |         |'
