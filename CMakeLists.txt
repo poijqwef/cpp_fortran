@@ -9,6 +9,8 @@ message(STATUS "C       compiler is ${CMAKE_C_COMPILER} (${CMAKE_C_COMPILER_ID})
 message(STATUS "C++     compiler is ${CMAKE_CXX_COMPILER} (${CMAKE_CXX_COMPILER_ID})")
 message(STATUS "Fortran compiler is ${CMAKE_Fortran_COMPILER}")
 
+set(CMAKE_Fortran_FLAGS "${CMAKE_Fortran_FLAGS} -fdefault-double-8 -fdefault-real-8")
+
 project (cppAndFortran)
 
 add_executable (cppAndFortran cppAndFortran.cpp cppAndFortran.f90)
