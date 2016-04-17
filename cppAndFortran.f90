@@ -67,7 +67,7 @@ implicit none
     end do
 
     print *,''
-    print *,'TO OBTAIN THE SAME VALUES, THE ARRAY NEEDS TO BE TRANPOSED!'
+    print *,'TO OBTAIN THE SAME VALUES, THE ARRAY NEEDS TO BE TRANSPOSED!'
     print *,''
     print *,'Cpp is row-first filling: '
     print *,''
