@@ -30,7 +30,7 @@
      fortran: doubleArray(           2 ,           2 ):    5.5000000000000000
      fortran: doubleArray(           2 ,           3 ):    6.5999999999999996
      
-     TO OBTAIN THE SAME VALUES, THE ARRAY NEEDS TO BE TRANPOSED!
+     TO OBTAIN THE SAME VALUES, THE ARRAY NEEDS TO BE TRANSPOSED!
      
      Cpp is row-first filling: 
      
@@ -79,7 +79,7 @@
      fortran: doubleArray(           2 ,           2 ):   -5.5000000000000000
      fortran: doubleArray(           2 ,           3 ):   -6.5999999999999996
      
-     TO OBTAIN THE SAME VALUES, THE ARRAY NEEDS TO BE TRANPOSED!
+     TO OBTAIN THE SAME VALUES, THE ARRAY NEEDS TO BE TRANSPOSED!
      
      Cpp is row-first filling: 
      
